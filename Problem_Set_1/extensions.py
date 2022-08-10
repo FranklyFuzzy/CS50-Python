@@ -1,4 +1,5 @@
 #extension.py
+#https://cs50.harvard.edu/python/2022/psets/1/extensions/
 x=input('File name: ')
 x=x.lower()
 if x.endswith(('.gif','.jpg','.jpeg','.png')):
