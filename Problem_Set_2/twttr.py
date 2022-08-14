@@ -18,4 +18,4 @@ I then easily assembled my nested replcace methods.
 #solution
 string = input('Input: ')
 rep = string.replace("A","").replace("E","").replace("I","").replace("O","").replace("U","").replace("a","").replace("e","").replace("i","").replace("o","").replace("u","")
-print('Output: ',rep, sep='')
+print('Output:',rep)
