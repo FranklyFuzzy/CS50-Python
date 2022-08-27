@@ -20,7 +20,6 @@ while True:
     order=order.lower()
     if order == "":
       break
-    #total=0
     for item in menu:
       if order in item.lower():
         food,price = item, menu[item]
