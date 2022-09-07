@@ -3,7 +3,7 @@
 grocery = {}
 while True:
     try:
-      item = input('').upper()
+      item = input().upper()
       if item in grocery:
         grocery[item] += 1
       else:
