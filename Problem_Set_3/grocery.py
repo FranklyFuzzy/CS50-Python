@@ -13,4 +13,4 @@ while True:
         break
 
 for i in sorted(grocery):
-	print(i, grocery[i])
+	print(grocery[i], i)
